@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio shop</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width initial scale=1"/>
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+</head>
+<body>
+
+    <div id="header">
+    <a href=""><img src="images/bio-logo.jpg"></a>
+    <label for="mobile-menu">
+        <img src="images/hamburgher-menu.jpg"/>
+    </label>
+    <input type="checkbox" id="mobile-menu"/>
+    
+    <ul>
+        <li><a href="index.html" id="pagina-activa">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+    <div id="header-home">
+        <div id="section1">
+    <h2>Healthy life with</h2>
+    <h1>Nature Organic</h1>
+    <p>Vegetables are the edible parts of a plant that is used in cooking or can be eaten now.</p>
+    <a href="http://www.wikipedia.org">Explore Now</a>
+
+        </div>
+
+            <img src="images/pumpkin.jpg"/>
+        
+
+    </div>
+
+
+
+    <div id="header-welcome">
+
+    <img src="images/leaf.jpg"/>
+    <h2>Welcome to Nature</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+
+    <iframe width="800" height="500" src="https://www.youtube.com/embed/Vagc5qqm1_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <div id="header-partners">
+        <h1>Proudly presented by</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <div class="owl-carousel" id="galerie-home">
+            <div><img src="images/containers-with-products-table-with-copy-space_23-2148366089.png"></div>
+            <div><img src="images/eucalyptus-essential-oil-soap-green-background-zero-waste-natural-organic-bathroom-tools_80743-2766.png"></div>
+            <div><img src="images/potted-plant-near-cosmetics-bottles-jars_23-2147787938.png"> </div>
+            <div><img src="images/containers-with-products-table-with-copy-space_23-2148366089.png"></div>
+            <div><img src="images/eucalyptus-essential-oil-soap-green-background-zero-waste-natural-organic-bathroom-tools_80743-2766.png"></div>
+            <div><img src="images/potted-plant-near-cosmetics-bottles-jars_23-2147787938.png"> </div>
+          </div>
+  
+    </div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="owl.carousel.min.js"></script> 
+            <script>
+                $('.owl-carousel').owlCarousel({
+                loop:true,
+                navText:['<img src="images/prev-button.png"/>','<img src="images/next-button.png"/>'],
+                margin:10,
+                autoplay:true,
+                autoplayTimeout:3000,
+
+                nav:true,
+                responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+        }
+        })
+            </script>
+</body>
+</html>

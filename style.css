@@ -1,0 +1,668 @@
+/* header*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration:none
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    overflow: hidden;
+    z-index: 99;
+}
+
+
+#header{
+    max-width: 1210px;
+    padding: 50px 20px 0;
+    margin:auto;
+    z-index:-1
+}
+
+#header img{
+    top:30px;
+    left: 226px;
+    width: 120px;
+    height: 120px;
+}
+
+#header label, #header input{
+    display:none;
+}
+
+#header label::after, #header input::after, #header-section::after{
+    content: '';
+    display:block;
+    clear:both;
+}
+
+#header ul{
+    float:right;
+}
+
+#header li{
+    float:left;
+    margin-left: 50px;
+    line-height: 60px;
+}
+
+#header li a{
+    
+    font: normal normal normal 16px/21px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #375c54;
+    opacity: 1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#header li a:hover, #header li #pagina-activa{
+    
+    color:#011d0c;
+    padding:5px;
+    margin:auto;
+    border: 2px solid #15978f;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#header-home{
+    max-width: 1210px;
+    padding: 150px 20px 0;
+    margin:auto;
+}
+
+#section1{
+    
+    width: 50%; 
+	float: left;
+}
+
+#header-home h2{
+    text-align: left;
+    font: normal normal normal 36px/48px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#header-home h1{
+    text-align: left;
+    font: normal normal bold 56px/74px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#header-home p{
+    text-align: left;
+    font: normal normal normal 20px/27px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#header-home a{
+    text-align: left;
+    font: normal normal bold 15px/20px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #0b726d 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    padding:10px;
+    margin:auto;
+}
+
+#header-home img{
+    float:right;
+    margin-top:40px;
+    width: 50%    
+}
+
+#header-welcome{
+    max-width: 1210px;
+    padding: 150px 20px 0;
+    margin:auto;  
+}
+
+
+#header-welcome img{
+  
+    margin-top:500px;
+    width:50px;
+    height:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#header-welcome h2{
+    text-align: center;
+    font: normal normal normal 36px/48px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+
+}
+
+#header-welcome h3{
+    text-align: center;
+    font: normal normal normal 16px/21px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+iframe{
+
+    margin: 50px auto 0;
+    display: block;
+    max-width: 800px; 
+    width: 100%;
+}
+#header-partners{
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+#galerie-home{
+    max-width:65%;
+    margin:auto;
+
+}
+#galerie-home .owl-next, #galeria-noastra .owl-prev{
+    font-size: 30px;
+    outline:none;
+    float:left;
+}
+
+#galerie-home .owl-next{
+    float:right;
+}
+
+#galerie-home .owl-prev{
+    float:left;
+}
+
+#galerie-home .owl-next, #galeria-noastra .owl-prev:hover{
+    color:black;
+    background:none;
+}
+
+#galerie-home .owl-prev img {
+    width:40px;
+
+    
+}
+#galerie-home .owl-next img {
+    width:40px;
+    
+
+}
+
+
+/*Products*/
+
+
+#header-products{
+
+    max-width: 1210px;
+    padding: 150px 20px 0;
+    margin:auto;
+    position:relative;
+    
+
+}
+
+#header-products h1{
+    text-align: center;
+    font: normal normal bold 36px/48px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#header-products h3{
+    text-align: center;
+    font: normal normal normal 20px/30px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+
+}
+
+#products-list{
+    text-align: center;
+
+}
+
+#products-list div{
+   
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    margin: 20px;
+    padding: 100px 100px 0 0px;
+    float: right;
+}
+
+#products-list img{
+    border-radius: 20px;
+    opacity: 1;
+    
+}
+
+#products-list h3{
+    text-align: center;
+    font: normal normal normal 18px/24px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #0b726d;
+    opacity: 1;
+}
+
+#products-list p{
+    text-align: center;
+    font: normal normal normal 14px/19px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+    width:330px;
+
+}
+
+#products-list a{
+    border: 2px solid #0b726d;
+    border-radius: 10px;
+    opacity: 1;
+    padding:5px;
+    text-align: center;
+    font: normal normal normal 16px/21px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#products-list a:hover{
+    border: 4px solid #0b726d;
+    color:white;
+    background-color: #0b726d;
+
+
+}
+
+/*Blog section*/
+
+#header-blog{
+    max-width: 1210px;
+    padding: 150px 20px 0;
+    margin:auto;
+    position:relative;
+    text-align: center;
+ 
+}
+
+h1{
+    
+    font: normal normal bold 36px/48px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+h3{
+    padding-top: 50px;
+    font: normal normal normal 20px/30px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#galerie{
+    padding:100px 50px 100px;
+    display: flex;
+    justify-content: center; 
+}
+
+h2{
+    font: normal normal 36px/48px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+button{
+    
+    width:200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 4px solid #0b726d;
+    color:white;
+    background-color: #0b726d;
+    padding: 12px 20px;
+    font: normal normal normal 14px/19px Libre Baskerville;
+    border-radius: 3%;
+ 
+}
+
+#header-blog a{
+    text-decoration: none;
+    color: white;
+    text-shadow:white;
+   
+}
+
+/* About us section*/
+#About{
+    max-width: 1210px;
+    padding: 150px 20px 0;
+    margin:auto;
+    text-align: center;
+}
+h1{
+    top: 164px;
+    font: normal normal bold 36px/48px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+p{
+    font: normal normal normal 16px/30px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#About div{
+    width:240px;
+    height:280px;
+    border: 1.5px dashed #374B5C;
+    border-radius: 20px;
+    opacity: 1;
+    display: inline-block;
+    
+}
+
+#About div:hover{
+    width:240px;
+    height:280px;
+    border: 3px dashed #0b726d;
+    border-radius: 20px;
+    opacity: 1;
+    display: inline-block;
+    
+}
+
+#About img{
+    width:50px;
+    position:relative;
+}
+
+#about-us{
+    box-sizing: border-box;
+    margin:20px  
+}
+
+#about-us img{
+    width:60%;
+    height:50%;   
+}
+
+#about-us h2{
+    
+    font: normal normal bold 18px/24px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#about-us p{
+    
+    font: normal normal normal 14px/19px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+/*Contact*/
+
+#container{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+
+}
+
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 3%;
+  }
+
+  input[type=submit] {
+    background-color: #0b726d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font: normal normal normal 14px/19px Libre Baskerville;
+    border-radius: 3%;
+  }
+
+  input[type=submit]:hover {
+    background-color: #00DBD0;
+    font: normal normal normal 14px/19px Libre Baskerville;
+    border-radius: 3%;
+  }
+
+  #container h2{
+    text-align: center;
+    font: normal normal bold 18px/24px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+  }
+
+  #container p{
+    text-align: center;
+    font: normal normal normal 14px/19px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+  }
+
+
+  @media (max-width: 768px){
+
+    /*index*/
+
+  
+    #header{
+        width:70%;
+        padding: 50px 20px 0;
+        margin:auto;
+    }
+
+    #header-home img{
+        width: 100%;
+	    float: none;
+    }
+
+    #header-home{
+        max-width: 768px;
+        padding: 150px 20px 0;
+        margin:auto;   
+    }
+
+    #section1{
+        width: 100%;
+	    float: none;
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    #header-home h2{
+        text-align: center;
+    }
+
+    #header-home h1{
+        text-align: center;
+    }
+
+    #header-home p{
+        text-align: center;
+    }
+
+    #header ul{
+        width: 100%;
+        display:none;
+    }
+
+    #header li{
+        float:none;
+        text-align: right;
+        line-height: 40px; 
+    }
+
+    #header label, #header input:checked+ul{
+        display:block;
+        float:right;
+    }
+
+    #header img{
+        width:70px;
+        height:70px;
+    }
+
+    #header-welcome img{
+        margin-top: 0px;
+    }
+
+    #galerie-home{
+        max-width:85%;
+        margin:auto;
+    
+    }
+/*Products mobile*/
+
+
+#header-products{
+    width:70%;
+    box-sizing: border-box;
+    margin:auto;
+    padding-top: 30%;
+    z-index:-1;
+}
+
+#header-products h1{
+    text-align: center;
+    font: normal normal bold 36px/48px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#header-products h3{
+    text-align: center;
+    font: normal normal normal 20px/30px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+}
+
+#products-list{
+    float:none;
+    text-align: center;
+    
+}
+
+#products-list div{
+    width:110%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    box-sizing: border-box; 
+    float:none;
+}
+
+#products-list p{
+    width:50%;
+    margin:auto;
+    height: 65px;   
+}
+
+
+#products-list a:hover{
+    border: 4px solid #0b726d;
+    color:white;
+    background-color: #0b726d;
+}
+
+/*Blog*/
+
+#header-blog{
+    width:60%;
+    padding-top:30%;
+    
+}
+
+#galerie{
+    display:block;
+}
+
+#header-blog h2{
+    font: normal normal 20px/20px Libre Baskerville;
+    letter-spacing: 0px;
+    color: #374B5C;
+    opacity: 1;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+   
+button{
+    
+    width:150px;
+    height: 40px;
+    border: 4px solid #0b726d;
+    color:white;
+    background-color: #0b726d;
+    padding: 12px 20px;
+    font: normal normal normal 10px/15px Libre Baskerville;
+    border-radius: 3%;   
+}
+
+/*About Us*/
+#About{
+    width:60%;
+    padding-top: 30%;
+}
+
+/*Contact*/
+
+#container{
+    width:85%;
+    margin:auto;
+    margin-top: 40%;
+    padding-top: 10%;
+} 
+  }

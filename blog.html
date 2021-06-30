@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width initial scale=1"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="jquery.fancybox.min.css"/>
+</head>
+<body>
+
+    <div id="header">
+        <a href=""><img src="images/bio-logo.jpg"></a>
+        <label for="mobile-menu">
+            <img src="images/hamburgher-menu.jpg"/>
+        </label>
+        <input type="checkbox" id="mobile-menu"/>
+        
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html"id="pagina-activa">Blog</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+
+        <div id="header-blog">
+        <h1>Our Blog Photos</h1>
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. .</h3>
+
+        <div id="galerie">
+        <a href="images/7.Certified-Organic-Grocery-Store_2280x1282.jpg" data-fancybox="gallery" data-caption="Vegetables">
+            <img src="images/7.Certified-Organic-Grocery-Store_2280x1282-mica.jpg" alt="" />
+        </a>
+        
+        <a href="images/40002641_6-organic-tattva-organic-seeds-flax.jpg" data-fancybox="gallery" data-caption="Seeds">
+            <img src="images/40002641_6-organic-tattva-organic-seeds-flax-mica.jpg" alt="" />
+        </a>
+
+        <a href="images/image1-4.png" data-fancybox="gallery" data-caption="Seeds">
+            <img src="images/image1-4-mica.png" alt="" />
+        </a>
+
+        <a href="images/HL-19986-8_Natural_Shampoos_to_Try_and_Ingredients_to_Leave_Out-1200x628-facebook-1.jpg" data-fancybox="gallery" data-caption="Hair">
+            <img src="images/HL-19986-8_Natural_Shampoos_to_Try_and_Ingredients_to_Leave_Out-1200x628-facebook-1-mica.jpg" alt="" />
+        </a>
+
+        <a href="images/explore-organic-shampoo.jpg" data-fancybox="gallery" data-caption="Shampoo">
+            <img src="images/explore-organic-shampoo-mica.jpg" alt="" />
+        </a>
+
+        <a href="images/tgshampoo.jpg" data-fancybox="gallery" data-caption="Shampoo">
+            <img src="images/tgshampoo-mica.jpg" alt="" />
+        </a>
+
+        <a href="images/Solid-Shampoo-for-normal-hair-1.jpg" data-fancybox="gallery" data-caption="Shampoo">
+            <img src="images/Solid-Shampoo-for-normal-hair-1-mica.jpg" alt="" />
+        </a>
+
+    </div>
+
+        <h2>You can find out more by visiting our blog</h2>
+        <button><a href="http://www.wikipedia.org">Find out!</a></button>
+    </div>
+
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="jquery.fancybox.min.js"></script>
+        <script>
+                        $('[data-fancybox="gallery"]').fancybox({
+               loop:true,
+               buttons: [
+                    "zoom",
+                    "share",
+                    "slideShow",
+                    "fullScreen",
+                    "download",
+                    "thumbs",
+                    "close"
+                ],
+            });
+        </script>
+
+
+</body>
+
+
+      
+        
