@@ -242,9 +242,11 @@ iframe{
 
 }
 
-#products-list{
+#products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-
 }
 
 #products-list div{
@@ -253,8 +255,8 @@ iframe{
     border-radius: 20px;
     opacity: 1;
     margin: 20px;
-    padding: 100px 100px 0 0px;
-    float: right;
+    padding: 150px 90px 0px;
+
 }
 
 #products-list img{
